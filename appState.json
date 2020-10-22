@@ -1,0 +1,132 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0da858a6-6b5d-46bd-9649-aa3aadd2b4ea": {
+        "id": "0da858a6-6b5d-46bd-9649-aa3aadd2b4ea",
+        "parent": null,
+        "name": "indu-oct22-108.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "indu-oct22-108.js",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 103,
+          "memory": 256,
+          "layers": [],
+          "name": "induOct22108"
+        },
+        "triggers": [
+          {
+            "resourceName": "httpApiginduuProdAPII",
+            "config": {
+              "defaultRoute": false,
+              "method": "POST",
+              "route": "/oioi"
+            }
+          }
+        ],
+        "lastUpdated": 1603352365098
+      }
+    },
+    "openFiles": [
+      "0da858a6-6b5d-46bd-9649-aa3aadd2b4ea"
+    ],
+    "currentFileId": "0da858a6-6b5d-46bd-9649-aa3aadd2b4ea",
+    "resources": {
+      "httpApiginduuProdAPII": {
+        "name": "httpApiginduuProdAPII",
+        "type": "API_GATEWAY",
+        "config": {
+          "apiType": 2,
+          "mode": 0,
+          "apiName": "induu-prodAPII",
+          "stageName": "PROD",
+          "corsConfig": {
+            "allowedHeaders": [
+              "Authorization",
+              "*"
+            ],
+            "allowedMethods": [
+              "GET",
+              "POST",
+              "DELETE",
+              "*"
+            ],
+            "allowedOrigins": [
+              "https://www.example.com",
+              "https://*"
+            ],
+            "exposedHeaders": [
+              "Date",
+              "x-api-id"
+            ],
+            "maxAge": 300,
+            "allowCredentials": true
+          }
+        }
+      },
+      "s3induuuu": {
+        "name": "s3induuuu",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "name": "induuuu"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.4.1",
+    "projectName": "indu-oct22-108",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1603353574480
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "indu-oct22-108-2",
+      "url": "https://github.com/Indunil1992/indu-oct22-108-2"
+    }
+  }
+}
